@@ -1,0 +1,14 @@
+checkpoint:
+  path: ./ckpt/ADMIS_FRCSyn_ckpt/ema_averaged_model_100000.ckpt
+  global_step: null
+  use_non_ema: true
+sampling:
+  gpu_idx: 0
+  seed: 41
+  contexts_file: /remote-home/share/yxmi/datasets/Source_10k/emb_Source_10k.pth
+  save_dir: ./samples
+  batch_size: 50
+  n_contexts: 10000
+  num_workers: 1
+  pin_memory: true
+  n_samples_per_context: 50
