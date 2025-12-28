@@ -2,7 +2,7 @@
 I reproduced IDiff-Face as a course assignment,the code of which is based on [IDiff-Face](https://github.com/fdbtrs/IDiff-Face) and [CVPR_FRCSyn_ADMIS](https://github.com/zzzweakman/CVPR24_FRCSyn_ADMIS).I express my heartfelt thanks to them!
 ## Pipeline
 I use a latent diffusion model (LDM) based on [IDiff-Face](https://github.com/fdbtrs/IDiff-Face) to synthesize faces. The LDM is conditioned using identity embeddings as contexts, extracted from faces by a pretrained [ElasticFace](https://github.com/fdbtrs/ElasticFace) recognition model.
-![image](pipeline.png)
+![image](Pipeline.png)
 
 ## Dataset and pretrained models
 I use the CASIA-WebFace dataset to train an IDiff-Face diffusion model and train the recognition model based on [TFace](https://github.com/Tencent/TFace).
